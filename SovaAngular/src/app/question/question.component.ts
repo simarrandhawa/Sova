@@ -13,5 +13,4 @@ public question;
   ngOnInit(): void {
     this.question = this.gqs.getQuestion();
   }
-
 }
