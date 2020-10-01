@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApi\\SovaApi.csproj": {}
+    "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApi\\SovaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApi\\SovaApi.csproj": {
+    "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApi\\SovaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApi\\SovaApi.csproj",
+        "projectUniqueName": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApi\\SovaApi.csproj",
         "projectName": "SovaApi",
-        "projectPath": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApi\\SovaApi.csproj",
+        "projectPath": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApi\\SovaApi.csproj",
         "packagesPath": "C:\\Users\\simar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApi\\obj\\",
+        "outputPath": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\SovaApp.csproj": {
-                "projectPath": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\SovaApp.csproj"
+              "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\SovaApp.csproj": {
+                "projectPath": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\SovaApp.csproj"
               }
             }
           }
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\SovaApp.csproj": {
+    "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\SovaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\SovaApp.csproj",
+        "projectUniqueName": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\SovaApp.csproj",
         "projectName": "SovaApp",
-        "projectPath": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\SovaApp.csproj",
+        "projectPath": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\SovaApp.csproj",
         "packagesPath": "C:\\Users\\simar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simar\\source\\repos\\SovaApp\\SovaApp\\obj\\",
+        "outputPath": "C:\\Users\\simar\\Source\\Repos\\Sova\\SovaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,6 +103,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.7, )"
